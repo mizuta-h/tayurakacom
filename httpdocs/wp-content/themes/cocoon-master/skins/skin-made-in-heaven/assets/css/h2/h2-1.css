@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* 標準(付箋) */
+
+.article h2,
+.main .article .widget-title,
+.main .under-entry-content h2 {
+  background-color: var(--hover-color);
+  border-left: 10px solid var(--main-color);
+  color: #333;
+  padding: 20px 15px!important;
+}
+
+.hvn-dark .article h2,
+.hvn-dark .main .article .widget-title,
+.hvn-dark .main .under-entry-content h2 {
+  color: var(--cocoon-text-color);
+}
